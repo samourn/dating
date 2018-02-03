@@ -84,7 +84,7 @@
             </div>
         </div>
 
-        <a href="profile-info.php"><button type="submit" class="btn btn-primary">Next ></button></a>
+        <a href="interests.php"><button type="submit" class="btn btn-primary">Next ></button></a>
     </form>
 </div>
 </body>
