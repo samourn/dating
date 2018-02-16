@@ -19,6 +19,33 @@ $f3->route('GET /', function() {
 }
 );
 
+//Define a personal-info route
+$f3->route('GET /personal-info', function() {
+    $template = new Template();
+    echo $template->render('pages/personal-info.php');
+}
+);
+
+//Define a profile-info route
+$f3->route('GET|POST /profile-info', function() {
+    $template = new Template();
+    echo $template->render('pages/profile-info.php');
+}
+);
+
+//Define a interests route
+$f3->route('GET|POST /interests', function() {
+    $template = new Template();
+    echo $template->render('pages/interests.php');
+}
+);
+
+//Define a profile-summary route
+$f3->route('GET|POST /profile-summary', function() {
+    $template = new Template();
+    echo $template->render('pages/profile-summary.php');
+}
+);
+
 //Run Fat-Free
 $f3->run();
-?>

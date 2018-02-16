@@ -7,8 +7,8 @@
 <body>
 <div class="container">
     <h1>Profile</h1><hr>
-    <div class="col"
-    <form>
+    <div class="col">
+        <form action="./interests" method="post">
         <div class="col">
             <div class="form-group">
                 <label for="email">Email</label>
@@ -83,9 +83,9 @@
                 <textarea class="form-control" id="biography" rows="6"></textarea>
             </div>
         </div>
-
-        <a href="interests.php"><button type="submit" class="btn btn-primary">Next ></button></a>
+        <button type="submit" class="btn btn-primary">Next ></button>
     </form>
+
 </div>
 </body>
 </html>
